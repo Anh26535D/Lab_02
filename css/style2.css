@@ -1,0 +1,136 @@
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("../images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;}
+
+header {
+    height: 160px;
+    background-image: url(../images/header.jpg);
+}
+
+.menu{
+	background-color: #aeaca8;
+}
+
+.menu ul{
+	margin: 0px;
+	border: 0px;
+	height: 30px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.menu ul li{
+	float: left;	
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	height: 30px;
+}
+
+.menu ul li a{
+	display: block;
+	margin: 0px;
+	border: 0px;
+	padding: 5px 5px 5px 28px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.content{
+	overflow: auto;
+	margin: 0px 0px 0px auto;
+}
+
+.content .row{
+	float: left;
+	width: 70%;
+	margin-right: 10px;
+}
+
+.content .side-bar{
+	float: right;
+	margin-right: 0;
+}
+
+.content .row .box1{
+	overflow: auto;
+	margin: 0px 0px 0px auto;
+	padding: 30px 5px 20px 28px;
+}
+
+.content .row .box1 .img1{
+	float: left;
+	width: 290px;
+	margin: 0px 25px 0px 0px;
+}
+
+.content .row .box2{
+	clear: left;
+	overflow: auto;
+	margin: 0px 0px 0px auto;
+	padding: 30px 5px 20px 28px;
+}
+
+.content .row .box2 .img2{
+	float: left;
+	width: 290px;
+	margin: 0px 25px 0px 0px;
+}
+
+.content .box3 h2{
+	padding-top: 20px;
+	color: red;
+}
+
+.content .box3 ul{
+	list-style-type: none;
+}
+
+.content .box3 ul li{
+	line-height: 50px;
+}
+
+.content .box3 a{
+	color: red;
+	text-decoration: none;
+}
+
+.content .box3 .contact p{
+	line-height: 10px;
+}
+
+footer{
+	height: 32px;
+	background-color: #aeaca8;
+	margin: 0px;
+}
+
+footer p{
+	margin: 0px;
+	color: white;
+	font-weight: bold;
+	font-size: 80%;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
